@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import re
 '''
 This file comes up with a random sample of 10 lines of a scene from the actual show. 
 it's meant to match format of model output (no punctuation, uppercase, or characters outside main 6)
